@@ -1,0 +1,74 @@
+<!-- Form Example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Burger Order Form</h1>
+    <form action="/submit.html" method="get">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required/>
+        <br><br>
+        <label for="tnumber">Table Number:</label>
+        <input type="number" name="tnumber" id="tnumber" step="1" required/>
+        <br><br>
+        <label for="bun">Bun Type:</label>
+        <input type="radio" name="bun" id="plain"/>
+        <label for="plain">Plain</label>
+        <input type="radio" name="bun" id="sesame"/>
+        <label for="sesame">Sesame</label>
+        <input type="radio" name="bun" id="broiche"/>
+        <label for="broiche">Broiche</label>
+        <input type="radio" name="bun" id="potato"/>
+        <label for="potato">Potato</label>
+        <br><br>
+        <label for="bun">Patty Type:</label>
+        <input type="radio" name="patty" id="beef"/>
+        <label for="beef">Beef</label>
+        <input type="radio" name="patty" id="chicken"/>
+        <label for="chicken">Chicken</label>
+        <input type="radio" name="patty" id="fish"/>
+        <label for="fish">Fish</label>
+        <input type="radio" name="patty" id="veggie"/>
+        <label for="veggie">Veggie</label>
+        <br><br>
+        <label for="bun">Burger Toppings:</label>
+        <input type="checkbox" name="topping" id="lettuce"/>
+        <label for="lettuce">Lettuce</label>
+        <input type="checkbox" name="topping" id="tomato"/>
+        <label for="tomato">Tomato</label>
+        <input type="checkbox" name="topping" id="onion"/>
+        <label for="onion">Onion</label>
+        <input type="checkbox" name="topping" id="caramalized"/>
+        <label for="caramalized">Caramalized Onion</label>
+        <input type="checkbox" name="topping" id="pickles"/>
+        <label for="pickles">Pickles</label>
+        <input type="checkbox" name="topping" id="cucumber"/>
+        <label for="cucumber">Cucumber</label>
+        <input type="checkbox" name="topping" id="coleslaw"/>
+        <label for="coleslaw">Coleslaw</label>
+        <input type="checkbox" name="topping" id="cheese"/>
+        <label for="cheese">Cheese</label>
+        <br><br>
+        <label for="bun">Burger Sauce:</label>
+        <input type="radio" name="sauce" id="tomato"/>
+        <label for="tomato">Tomato</label>
+        <input type="radio" name="sauce" id="chilli"/>
+        <label for="chilli">Chilli</label>
+        <input type="radio" name="sauce" id="bbq"/>
+        <label for="bbg">BBQ</label>
+        <input type="radio" name="sauce" id="mayo"/>
+        <label for="mayo">Mayo</label>
+        <br><br>
+        <label for="remarks">Remarks:</label>
+        <br><br>
+        <textarea id="remarks" name="remarks" rows="5" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

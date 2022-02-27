@@ -1,0 +1,89 @@
+<!-- Table Example -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+          }
+        
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Day</th>
+                <th colspan="7" scope="col">Temperature (&#8451;)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Country</th>
+                <td>Singapore</td>
+                <td>Malaysia</td>
+                <td>Thailand</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <th scope="row">Sunday</th>
+                <td>30</td>
+                <td>30</td>
+                <td>34</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <th scope="row">Monday</th>
+                <td>31</td>
+                <td>34</td>
+                <td>35</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th scope="row">Tuesday</th>
+                <td>31</td>
+                <td>34</td>
+                <td>34</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <th scope="row">Wednesday</th>
+                <td>31</td>
+                <td>33</td>
+                <td>33</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <th scope="row">Thursday</th>
+                <td>31</td>
+                <td>33</td>
+                <td>34</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <th scope="row">Friday</th>
+                <td>31</td>
+                <td>31</td>
+                <td>35</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Saturday</th>
+                <td>31</td>
+                <td>32</td>
+                <td>36</td>
+                <td>32</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
