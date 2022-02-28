@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    .simple {
+      width: 250px;
+      height: 250px;
+      display: flex;
+      position: relative;
+      margin: 10px;
+      animation-name: hello;
+      animation-duration: 3s;
+    }
+
+    #one {
+      background-color: lightblue;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    #two {
+      background-color: pink;
+      animation-timing-function: linear;
+      animation-iteration-count: 1;
+    }
+
+    #three {
+      background-color: lightgray;
+      animation-timing-function: linear;
+      animation-iteration-count: 2;
+    }
+
+
+    @keyframes hello {
+      from {
+        left: 0px;
+      }
+
+      to {
+        left: 200px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="simple" id="one"></div>
+  <div class="simple" id="two"></div>
+  <div class="simple" id="three"></div>
+</body>
+
+</html>

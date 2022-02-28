@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    .simple {
+      width: 250px;
+      height: 250px;
+      display: flex;
+      background-color: lightblue;
+      position: relative;
+      margin: 10px;
+      animation-duration: 3s;
+      animation-name: simple;
+      animation-delay: 2s;
+    }
+
+    #one {
+      animation-fill-mode: none; /* default value */
+    }
+
+    #two {
+      animation-fill-mode: forwards;
+    }
+
+    #three {
+      animation-fill-mode: backwards;
+    }
+
+    #four {
+      animation-fill-mode: both;
+    }
+
+    @keyframes simple {
+      from {
+        left: 0px;
+        background-color: green;
+      }
+
+      to {
+        left: 200px;
+        background-color: yellow;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="simple" id="one" >none</div>
+  <div class="simple" id="two">forwards</div><!-- retain the style values from the last keyframe when the animation ends-->
+  <div class="simple" id="three">backwards</div><!-- get the style values set by the first keyframe before the animation starts -->
+  <div class="simple" id="four">both</div> <!-- get the style values set by the first keyframe before the animation starts,and retain the style values from the last keyframe when the animation ends -->
+</body>
+
+</html>

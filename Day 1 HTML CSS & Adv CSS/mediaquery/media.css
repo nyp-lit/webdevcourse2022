@@ -1,0 +1,18 @@
+body {
+  /* originl color */
+  background-color: pink;
+}
+
+/* applied when the screen size is less than 780px */
+@media screen and (max-width: 780px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* applied when the screen size is greater than 1000px */
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+}
