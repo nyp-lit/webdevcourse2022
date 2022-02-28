@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-bg: #161925;
+    --main-text: white;
+    --secondary-bg: #406E8E;
+    --button-bg: #CBF7ED;
+}
+
+body{
+    background-color: var(--main-bg);
+    color: var(--main-text);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    padding-top: 40px;
+    text-align: center;
+}
+
+button{
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: var(--button-bg);
+}
+
+/* section 1 css */
+#typeconv-sets-arrow h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#typeconv-sets-arrow p{
+margin: 10px;
+  padding: 10px;}
+  #typeconv-sets-arrow .center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+/* end of section 1 css */
+
+/* section 2 css */
+#user1, #user2, #user3{
+    margin: 20px;
+}
+
+.post{
+    margin: 10px;
+    flex:1 33%;
+    background-color: var(--secondary-bg);
+    padding: 10px;
+}
+
+.posts{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+#async-await h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#getCat{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+/* end of section 2 css */

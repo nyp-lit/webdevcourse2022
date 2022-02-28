@@ -1,0 +1,14 @@
+[
+    {
+        "username": "user1",
+        "posts" : ["Post 1","Post 2","Post 3"]
+    },
+    {
+        "username": "user2",
+        "posts" : ["Post 4","Post 5","Post 6"]
+    },
+    {
+        "username": "user1",
+        "posts" : ["Post 7","Post 8","Post 9"]
+    }
+]
