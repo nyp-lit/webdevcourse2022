@@ -1,10 +1,10 @@
-// SECTION 1 created by Sharina
+// SECTION 1 created by Sharina Rafael
 // SECTION 2 created by Jolene Chong
 
 // CODE FOR SECTION 1
 
 
-// Q1) Convert ”932” (a string) into a number using a type conversion method
+// TYPE CONVERSION Q1) Convert ”932” (a string) into a number using a type conversion method
 
 // Q2) Now make another variable b and set the value as “h”, use another method to convert the value into a number (Hint: Use the unary + operator)
 
@@ -29,7 +29,7 @@ function CalculateGST(price) {
   return onepercent * 7
 }
 
-// END OF CODE FOR SECTIOn 1
+// END OF CODE FOR SECTION 1
 
 
 
