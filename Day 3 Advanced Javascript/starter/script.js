@@ -38,7 +38,9 @@ function CalculateGST(price) {
 
 // function to loadPosts() from data/users.json db
 
+
 // function to wait for DOM to load then asynchronously add a post and display posts after
+
 
 // using APIs with async await
 
